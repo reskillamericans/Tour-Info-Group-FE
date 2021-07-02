@@ -16,6 +16,23 @@ body {
     font-family: 'Red Hat Display', sans-serif;
 } 
 
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--black);
+}
+
 .menucontainer {
     display: flex;
     justify-content: center; 
@@ -25,9 +42,35 @@ body {
     padding-top: 5vh;
 }
 
+.menu img {
+     width: 60%;
+     margin-top: -15px;
+}
 
-h1, h2, h3 {
-    text-align: center;
+.menu a {
+    float: left;
+    display: block;
+    color: var(--purple);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+li {
+    padding-right: 25px;
+}
+
+.menu li:last-child {
+    font-weight: bold;
+  }
+
+.right {
+    float: right;
 }
 
 section {
@@ -39,10 +82,6 @@ section {
     padding: 20px 0;
 }
 
-.heroimg > h1, h2 {
-    color: var(--white);
-}
-
 .heroimg {
     display: flex;
     flex-direction: column;
@@ -51,7 +90,7 @@ section {
     height: 20vh;
     padding: 25vh 0 10vh 0;
     margin: 6vh 0 0 0;
-    background-image: url("beach-background.jpg");
+    background-image: url("images/Main Top Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,72 +124,6 @@ input[type=text], input[type=date], input[type=number] {
     margin-left: 30px;
 }
 
-.seachcontainer > button {
-    margin-bottom: 0px;
-  } 
-
-
-
-
-
-/* .tritours > h1, h2 {
-    color: var(--black);
-} */
-
-.ttours {
-    width: 20%
-}
-
-h1 {
-    font-size: 37px;
-}
-
-h2 {
-    font-size: 28px;
-}
-
-h3 {
-    font-size: 21px;
-}
-
-
-.menu a {
-    float: left;
-    display: block;
-    color: #000;
-    /*text-align: center;
-        padding: 14px 20px; */
-    text-decoration: none;
-}
-  
-
-  .right {
-    float: right;
-  }
-
- img {
-    width: 20%; 
-}
-
- .menu {
-    float: right;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-}
-
-li {
-    padding-right: 25px;
-}
-
-fieldset {
-    border: none;
-}
-
 button {
     background-color: var(--purple);
     color: var(--white);
@@ -162,20 +135,55 @@ button {
     cursor: pointer;
 }
 
-.boop {
-    text-align: center;
-    padding: 20vh 0 10vh 0;
+.seachcontainer > button {
+    margin-bottom: 0px;
+  } 
+
+.tritours > h3 {
+    color: var(--black);
 }
 
-.form-container {
+.tritourscontainer {
+    width: 80%;
     display: flex;
-    justify-content: center; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.tours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tours > p {
+     width: 80%;
+     padding: 20px 10px;
+     text-align: center;
+     background-color: #B695C0;
+     border-radius: 0 0 15px 15px;
+}
+
+.tritours2 {
+   /*  width: 60px;
+   width: 60%;
+     text-align: center; 
+    align-items: center;*/
+}
+
+
+.tritours2 button {
+    margin-top: 90px;
 }
 
 
 
 
 
+fieldset {
+    border: none;
+}
 
 .newsletter{
     border: 2px solid var(--black);
@@ -183,18 +191,42 @@ button {
     width: 50%;
 }
 
+/* footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-image: url("images/Main Top Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+} */
+
 footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  /*  height: 20vh;
-     width: 50%; */
-    padding: 30px 0;
-    background-image: url("beach-background.jpg");
+    z-index: 5;
+    height: 20vh;
+    /* opacity: 0.5;*/
+    margin: 6vh 0 0 0; 
+    background-image: url("images/Main Top Image.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
-    border-radius: 25px;
+    background-size: cover;
+    
+}
+
+.footer p {
+    font-weight: bold;
+    padding: 15vh 0;
+}
+
+.footer h1 {
+    padding-top: 10vh;
 }
