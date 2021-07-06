@@ -9,8 +9,12 @@
     --purple: #7307c8;
     --white: #fff;
     --black: #000;
+<<<<<<< HEAD:style.css
     --lightgray: rgb(219, 219, 219);
   }
+=======
+}
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
 
 body {
     font-family: 'Red Hat Display', sans-serif;
@@ -152,6 +156,7 @@ button {
     margin-top: 80px;
 }
 
+<<<<<<< HEAD:style.css
 .tours {
     width: 410px;
     display: flex;
@@ -166,6 +171,18 @@ button {
     text-align: center;
     background-color: #B695C0;
     border-radius: 0 0 15px 15px;
+=======
+.right {
+    float: right;
+}
+
+ /* img {
+    width: 20%; 
+} */
+
+.menu {
+    float: right;
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
 }
 
 .toursimgframe {
@@ -181,10 +198,21 @@ button {
 
 
 
+<<<<<<< HEAD:style.css
 
 
 .tritoursblurb p {
     padding: 0 20rem;
+=======
+button {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 25px;
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
 }
 
 .tritoursblurb button {
@@ -199,19 +227,147 @@ button {
     margin: 6rem 0;
 }
 
+<<<<<<< HEAD:style.css
 .wblistcontainer button {
     background-color: var(--lightgray);
     color: var(--black);
+=======
+.tour-container > .tour-left , .tour-right {
+    margin: 20px 50px;
+}
+
+.tour-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.destination-left .item {
+    margin: 5px 0px;
+}
+
+.destination-left > h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.destination-right .item {
+    margin: 5px 0px;
+}
+
+.destination-right > h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.tourtypes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.tourtypes-container {
+    display: flex;
+    flex-direction: row;
+    width: 83%;
+    justify-content: space-evenly;
+}
+
+.tourselection > img {
+    margin-top: 5px; 
+    width: 325px;
+    height: 175px;
+}
+
+.tourselection > p {
+    font-size: 10px;
+    margin-top: -8px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background-color: rgb(219, 218, 218);
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
 }
 
 .wblistleft, .wblistright {
     margin: 0 6rem;
 }
 
+<<<<<<< HEAD:style.css
 .wblistleft li {
     list-style-type: none;
     display: flex;
     justify-content: center;
+=======
+.review {
+    display: flex;
+    margin-top: 20px;
+    /* border: 0.5px solid lightgray; */
+    border-radius: 5px;
+    box-shadow: 20px;
+    
+}
+
+.review > p {
+    margin-left: 40px;
+}
+
+.review .image {
+    border-radius: 80px;
+}
+
+/* .closingstatement {
+    margin-top: 0px;
+} */
+
+.closingstatement > h3 {
+    border: 1px solid lightgray;
+    padding: 20px 200px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.traveltype {
+    width: 
+}
+
+.traveltype > h3 {
+    margin-top: 0em;
+}
+
+.top-preference {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.top-selection > h3 {
+    margin: 8px 60px;
+    font-size: 18px;
+
+}
+
+.bottom-preference {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.bottom-selection > h3 {
+    margin: 8px 0px;
+    font-size: 18px;
+}
+
+
+.bottom-preference > button {
+    width: 200px;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 5px;
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
 }
 
 .wblistright li {
