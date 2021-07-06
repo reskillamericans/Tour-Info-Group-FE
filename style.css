@@ -181,25 +181,23 @@ button {
 .tourtypes-container {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 83%;
     justify-content: space-evenly;
 }
-.solo > img {
+
+.tourselection > img {
     margin-top: 5px; 
     width: 325px;
     height: 175px;
 }
 
-.solo > p {
+.tourselection > p {
     font-size: 10px;
     margin-top: -8px;
     border-radius: 5px;
     padding: 10px 5px;
     background-color: rgb(219, 218, 218);
 }
-
-
-
 
 
 .review {
@@ -231,6 +229,10 @@ button {
     font-size: 12px;
 }
 
+.traveltype {
+    width: 
+}
+
 .traveltype > h3 {
     margin-top: 0em;
 }
@@ -250,8 +252,9 @@ button {
 .bottom-preference {
     display: flex;
     flex-direction: row;
+    align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .bottom-selection > h3 {
@@ -259,10 +262,13 @@ button {
     font-size: 18px;
 }
 
-/* button {
-    margin: 0px 20px;
 
-} */
+.bottom-preference > button {
+    width: 200px;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
 
 
 
