@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./assets/css/style.css">
+        <style type="text/css">@import url(style.css);</style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Touryst</title>
         <link rel="shortcut icon" type="image/jpg" href=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
@@ -11,7 +12,7 @@
 <body>
     <header class="menucontainer">
         <div class="menu">
-            <a href="#"><img src="./assets/img/placeholderlogo.jpg" alt="Touryst Logo"></a>
+            <a href="#"><img src="placeholderlogo.jpg" alt="Touryst Logo"></a>
             <ul class="right">
                 <li><a href="#">Destination</a></li>
                 <li><a href="#">Travel Type</a></li>
@@ -40,7 +41,36 @@
     </section>
 
     <section class="sixtours">
-        <h1>Six Tour Images</h1>
+        <div class="tour-container">
+            <div class="tour-left">
+                <div class="destination-left">
+                    <h3>New York</h3>
+                    <img class="item" src="/assets/img/newyork.png" width="325px" height="175px" alt="">
+                </div>
+                <div class="destination-left">
+                    <h3>Italy</h3>
+                    <img class="item" src="/assets/img/italy.png" width="325px" height="175px" alt="">
+                </div>
+                <div class="destination-left">
+                    <h3>China</h3>
+                    <img class="item" src="/assets/img/china.png" width="325px" height="175px" alt="">
+                </div>
+            </div>
+            <div class="tour-right">
+                <div class="destination-right">
+                    <h3>Hawaii</h3>
+                    <img class="item"  src="/assets/img/hawaii.png" width="325px" height="175px" alt="">
+                </div>
+                <div class="destination-right">
+                    <h3>Sahara Desert</h3>
+                    <img class="item" src="/assets/img/sahara.png" width="325px" height="175px" alt="">
+                </div>
+                <div class="destination-right">
+                    <h3>World Map</h3>
+                    <img class="item" src="/assets/img/world map.png" width="325px" height="175px" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="whybook">
@@ -67,19 +97,60 @@
     </section>
 
     <section class="tourtypes">
-        <h1>Three Tour Type Options</h1>
+        <div class="tourtypes-container">
+            <div class="tourselection">
+                <h3>Solo Tours</h3>
+                <img src="/assets/img/soloT.png" alt=""><p>Meet like-minded travelers, make memories and life-long friends!</p>    
+            </div>
+            <div class="tourselection">
+                <h3>Group Tours</h3>
+                <img src="/assets/img/groupT.png" alt=""><p>Explore the world on your own!</p>    
+            </div>
+            <div class="tourselection">
+                <h3>Private Tours</h3>
+                <img src="/assets/img/privateT.png" alt=""><p>Bring your friends and family along and make it a trip remember!</p>    
+            </div>
+        </div>
+         
     </section>
 
     <section class="socialproof">
-        <h1>Social proof</h1>
+        <h3>Social Testimonial</h1>
+        <div class="review"> 
+            <img class="image" src="https://via.placeholder.com/100" alt="">
+            <p>What a mind-blowing trip it was! I shall always keep the wonderful experiences close to my heart. <br>
+            I have been on a few guided tours before with other companies and we can honesly say this has been the best. </p>
+        </div>    
     </section>
     
     <section class="closingstatement">
-        <h1>Closing Statement</h1>
+        <h3>Closing Statement</h3>     
     </section>
 
     <section class="traveltype">
-        <h1>Travel Type</h1>
+        <h3>Travel Type</h3>
+        <button>Sign-Up for a Tour</button>
+        <div class="top-preference">
+            <div class="top-selection">
+                <h3>Food & Wines Tours</h3>
+                <img class="item" src="/assets/img/foodnwine.png" width="200px" height="250px" alt="">
+            </div>
+            <div class="top-selection">
+                <h3>Adventure Tours</h3>
+                <img class="item" src="/assets/img/adventure.png" width="200px" height="250px" alt="">
+            </div>
+            <div class="top-selection">
+                <h3>National Park Tours</h3>
+                <img class="item" src="/assets/img/nationalpark.png" width="200px" height="250px" alt="">
+            </div>
+        </div>
+        <div class="bottom-preference">
+            <div class="bottom-selection">
+                <h3>Castle Tours</h3>
+                <img class="item" src="/assets/img/castle.png" width="515px" height="220px"alt="">
+            </div> 
+            <button>View All Travel Types</button>           
+        </div>    
     </section>
 
     <section class="companyInfo">
