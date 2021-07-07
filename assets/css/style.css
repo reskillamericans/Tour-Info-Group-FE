@@ -401,7 +401,7 @@ button {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 30px; 
 }
 
 .bottom-selection > h3 {
@@ -409,6 +409,11 @@ button {
     font-size: 18px;
 }
 
+.bottom-selection > img {
+    width: 575px;
+    height: 250px;
+    margin-right: 60px;
+}
 
 .bottom-preference > button {
     width: 200px;
