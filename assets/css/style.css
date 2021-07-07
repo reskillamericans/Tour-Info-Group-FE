@@ -178,11 +178,22 @@ button {
     width: 400px;
     height: 500px;
     margin: 0 20px;
-    background-image: url("/assets/img/Rectangle 75.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
+}
+
+.tif1 {
+    background-image: url("/assets/img/Rectangle 75.png");
+}
+
+.tif2 {
+    background-image: url("/assets/img/nationalpark.png");
+}
+
+.tif3 {
+    background-image: url("/assets/img/Rectangle 76.png");
 }
 
 .tritoursblurb p {
@@ -263,13 +274,19 @@ button {
     justify-content: space-evenly;
 }
 
+.tour-container img {
+    width: 450px;
+    height: auto;
+    padding-top: 1rem;
+}
+
 .destination-left .item {
     margin: 5px 0px;
 }
 
 .destination-left > h3 {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .destination-right .item {
@@ -278,7 +295,7 @@ button {
 
 .destination-right > h3 {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .wblistcontainer {
