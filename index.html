@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <style type="text/css">@import url(style.css);</style>
+        <style type="text/css">@import url(./assets/css/style.css);</style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Touryst</title>
         <link rel="shortcut icon" type="image/jpg" href=""/>
@@ -12,14 +11,13 @@
 <body>
     <header class="menucontainer">
         <div class="menu">
-            <a href="#"><img src="placeholderlogo.jpg" alt="Touryst Logo"></a>
+            <a href="#"><img src="/assets/img/Group 186.png" alt="Touryst Logo"></a>
             <ul class="right">
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Travel Type</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sales</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Login/Sign Up</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
     </header>
@@ -28,16 +26,37 @@
         <h1>Your Adventure Awaits</h1>
         <h2>Risk Free booking at only $150 down!</h2>
         <div class="seachcontainer">
-            <input type="text"><input type="date"><input type="date"><input type="number"></br>
-            <input type="submit">
+            <div class="searchinputs">
+                <input type="text" id="destination" name="destination" placeholder="Destination"><input type="date" value="Check In"><input type="date" value="Check Out"><input type="number" id="number" name="number" placeholder="Number of Travelers">
+            </div>
+
+            <button type="submit" value="Submit">Search</button>
         </div>
     </section>
 
     <section class="tritours">
         <h1>Select Tours on Sale Now Through August!</h1>
-        <h2>Save up to $365 for tours in 2021 and 2022</h2></br>
-        <h2>Choose our carefully selected and crafted tours made for the traveler like you!</h2>
-        <div class="ttours"><img src="https://via.placeholder.com/150"></br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        <h3>Save up to $365 for tours in 2021 and 2022</h3></br>
+        <h3>Choose our carefully selected and crafted tours made for the traveler like you!</h3>
+
+        <div class="tritourscontainer">
+            <div class="tours">
+                <div class="toursimgframe"></div><p>Proin aptent pellentesque accumsan scelerisque id ligula etiam elementum ante urna fringilla porttitor faucibus quisque est suscipit leo semper volutpat.</p>
+            </div>
+            <div class="tours">
+                <div class="toursimgframe"></div><p>Proin aptent pellentesque accumsan scelerisque id ligula etiam elementum ante urna fringilla porttitor faucibus quisque est suscipit leo semper volutpat.</p>
+            </div>
+            <div class="tours">
+                <div class="toursimgframe"></div><p>Proin aptent pellentesque accumsan scelerisque id ligula etiam elementum ante urna fringilla porttitor faucibus quisque est suscipit leo semper volutpat.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="tritoursblurb">
+        <p>Orci per hac etiam dictum. Torquent turpis cubilia massa cras ullamcorper sapien lacus blandit sodales posuere vulputate dictumst varius massa adipiscing viverra dapibus mattis. Vitae vestibulum hymenaeos torquent venenatis curabitur.</p>
+
+        <button type="button"> Sign-up for a Tour</button>
     </section>
 
     <section class="sixtours">
@@ -58,15 +77,15 @@
             </div>
             <div class="tour-right">
                 <div class="destination-right">
-                    <h3>Hawaii</h3>
+                    <h3>Caribbean</h3>
                     <img class="item"  src="/assets/img/hawaii.png" width="325px" height="175px" alt="">
                 </div>
                 <div class="destination-right">
-                    <h3>Sahara Desert</h3>
+                    <h3>Africa</h3>
                     <img class="item" src="/assets/img/sahara.png" width="325px" height="175px" alt="">
                 </div>
                 <div class="destination-right">
-                    <h3>World Map</h3>
+                    <h3>Additonal Tours</h3>
                     <img class="item" src="/assets/img/world map.png" width="325px" height="175px" alt="">
                 </div>
             </div>
@@ -75,22 +94,22 @@
 
     <section class="whybook">
         <h1>Why Book with Us?</h1>
-
-        <div class="wblistleft">
-            <ul>
-            <li><button type="button">24/7 Customer Service Team</button></li>
-            <li><button type="button">Solo Travel Tours</button></li>
-            <li><button type="button">Curated Tours Tailored for You</button></li>
-            </ul>
+        <div class="wblistcontainer">
+            <div class="wblistleft">
+                <ul>
+                <li><button type="button">24/7 Customer Service Team</button></li>
+                <li><button type="button">Solo Travel Tours</button></li>
+                <li><button type="button">Curated Tours Tailored for You</button></li>
+                </ul>
+            </div>
+            <div class="wblistright">
+                <ul>
+                <li><button type="button">Carefully Selected Local Tour Guides</button></li>
+                <li><button type="button">Airfare and Transportation</button></li>
+                <li><button type="button">Four and Five Star Hotels</button></li>
+                </ul>
+            </div>
         </div>
-        <div class="wblistright">
-            <ul>
-            <li><button type="button">Carefully Selected Local Tour Guildes</button></li>
-            <li><button type="button">Airfare and Transportation</button></li>
-            <li><button type="button">Four and Five Star Hotels</button></li>
-            </ul>
-        </div>
-
 
         <h3>Whether solo, group or private, Touryst is here to tailor your tours based on your interests.</h3></br>
         <button type="button">Sign Up For A Tour</button>
@@ -154,25 +173,21 @@
     </section>
 
     <section class="companyInfo">
-        <!-- <h1>Company Info</h1> -->
         <p>This is the first year for Touryst and we're very happy with providing all our curated and specially designed tours for our special travelers!</p>
-    </section>
-
-    <section class="toursignupbutton">
-        <button type="button">Sign Up For A Tour</button>
     </section>
     
     <section class="newsletter">
         <h1>Be in the know on all travel deals and news</h1></br>
-        <input type="email" value="Email Address"><button type="submit">Submit</button>    
+        <div class="newslettercontainer">
+            <input type="email" value="Email Address: "><button type="submit">Submit</button>
+        </div>  
     </section>
 
     <footer>
         <h1>Experience the Adventure that Awaits you!</h1></br>
-        <button type="button">Book Now</button>
         <p> &#169; 2021 Toursyt | All Rights Reserved </br>
         Privacy Policy | Terms & Conditions</p>
     </footer>
-
+    
 </body>
 </html> 

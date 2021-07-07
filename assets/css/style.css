@@ -9,11 +9,29 @@
     --purple: #7307c8;
     --white: #fff;
     --black: #000;
+    --lightgray: rgb(219, 219, 219);
 }
 
 body {
     font-family: 'Red Hat Display', sans-serif;
 } 
+
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--black);
+}
 
 .menucontainer {
     display: flex;
@@ -21,12 +39,36 @@ body {
 }
 
 .menu {
-    padding-top: 30px;
+    padding-top: 5vh;
+    width: 1000px;
 }
 
 
-h1, h2, h3 {
-    text-align: center;
+.menu img {
+    width: 60%;
+    margin-top: -15px;
+}
+
+.menu a {
+   float: left;
+   display: block;
+   color: var(--black);
+   text-decoration: none;
+}
+
+.menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: inline-flex;
+}
+
+.right li {
+   padding-right: 25px;
+}
+
+.right {
+    float: right;
 }
 
 section {
@@ -38,60 +80,124 @@ section {
     padding: 20px 0;
 }
 
-.heroimg > h1, h2 {
-    color: var(--white);
-}
-
 .heroimg {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 20vh;
-    /* width: 50%; */
-    background-color: #7307c8;
-    background-image: url("beach-background.jpg");
+    padding: 25vh 0 10vh 0;
+    margin: 6vh 0 0 0;
+    background-image: url("/assets/img/Main Top Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
     border-radius: 25px;
 }
 
 .seachcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 50%;
-    padding-top: 20px;
+    margin: 10vh 0;
+    padding: 5vh 3vw;
     background-color: #fff;
     border-radius: 25px;
 }
 
-.tritours > h1, h2 {
+.searchinputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], input[type=date], input[type=number] {
+    position:inherit;
+    border: none;
+    background: var(--lightgray);
+    border-radius: .25rem;
+    padding: .75rem 1rem;
+    margin-left: 30px;
+}
+
+button {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.seachcontainer > button {
+    margin-bottom: 0px;
+  }
+
+
+  .tritours > h3 {
     color: var(--black);
 }
 
-.ttours {
-    width: 20%
+.tritourscontainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
 }
 
-h1 {
-    font-size: 37px;
+.tours {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h2 {
-    font-size: 28px;
+.tours > p {
+    width: auto;
+    margin: 0 5px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #B695C0;
+    border-radius: 0 0 15px 15px;
 }
 
-h3 {
-    font-size: 21px;
+.toursimgframe {
+    width: 400px;
+    height: 500px;
+    margin: 0 20px;
+    background-image: url("/assets/img/Rectangle 75.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tritoursblurb p {
+    padding: 0 20rem;
+}
+
+.tritoursblurb button {
+    margin-top: 90px;
 }
 
 
+
+
+
+
+
+/* 
 .menu a {
     float: left;
     display: block;
     color: #000;
-    /*text-align: center;
-        padding: 14px 20px; */
+   text-align: center;
+        padding: 14px 20px; 
     text-decoration: none;
 }
   
@@ -99,10 +205,6 @@ h3 {
 .right {
     float: right;
 }
-
- /* img {
-    width: 20%; 
-} */
 
 .menu {
     float: right;
@@ -141,7 +243,7 @@ button {
 .form-container {
     display: flex;
     justify-content: center; 
-}
+} */
 
 .tour-container > .tour-left , .tour-right {
     margin: 20px 50px;
@@ -169,6 +271,34 @@ button {
 .destination-right > h3 {
     font-size: 18px;
     margin-top: 20px;
+}
+
+.wblistcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.wblistcontainer button {
+    background-color: var(--lightgray);
+    color: var(--black);
+}
+
+.wblistleft, .wblistright {
+    margin: 0 6rem;
+}
+
+.wblistleft li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.wblistright li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 .tourtypes{
@@ -229,9 +359,9 @@ button {
     font-size: 12px;
 }
 
-.traveltype {
+/* .traveltype {
     width: 
-}
+} */
 
 .traveltype > h3 {
     margin-top: 0em;
@@ -272,10 +402,12 @@ button {
 
 
 
-.newsletter{
-    border: 2px solid var(--black);
-    border-radius: 25px;
-    width: 50%;
+.newsletter input[type=email] {
+    border: none;
+    background: var(--lightgray);
+    border-radius: .25rem;
+    margin: 1rem 1rem 0 0;
+    padding: .75rem 12rem .75rem 1rem;
 }
 
 footer{
@@ -283,13 +415,20 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  /*  height: 20vh;
-     width: 50%; */
-    padding: 30px 0;
-    background-image: url("beach-background.jpg");
+    z-index: 5;
+    height: 20vh;
+    margin: 6vh 0 0 0; 
+    background-image: url("/assets/img/Main Top Image.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
-    border-radius: 25px;
+    background-size: cover;
+}
+
+.footer p {
+    font-weight: bold;
+    padding: 15vh 0;
+}
+
+.footer h1 {
+    padding-top: 10vh;
 }
