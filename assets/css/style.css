@@ -254,7 +254,7 @@ button {
 } */
 
 .tour-container > .tour-left , .tour-right {
-    margin: 20px 50px;
+    margin: 20px 30px;
 }
 
 .tour-container {
@@ -265,7 +265,7 @@ button {
 
 .destination-left > img {
     margin: 5px 0px;
-    width: 375px;
+    width: 400px;
     height: 250px;
 }
 
@@ -276,7 +276,7 @@ button {
 
 .destination-right > img {
     margin: 5px 0px;
-    width: 375px;
+    width: 400px;
     height: 250px;
 }
 
