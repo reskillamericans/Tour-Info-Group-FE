@@ -263,8 +263,10 @@ button {
     justify-content: space-evenly;
 }
 
-.destination-left .item {
+.destination-left > img {
     margin: 5px 0px;
+    width: 375px;
+    height: 250px;
 }
 
 .destination-left > h3 {
@@ -272,8 +274,10 @@ button {
     margin-top: 20px;
 }
 
-.destination-right .item {
+.destination-right > img {
     margin: 5px 0px;
+    width: 375px;
+    height: 250px;
 }
 
 .destination-right > h3 {
@@ -344,22 +348,22 @@ button {
     flex-direction: row;
     margin: 10px;
     align-items: center;
-    border-radius: 0.5px;
-    box-shadow: 0px 2.5px 5px lightgray;
-    
+    border-radius: 5px;
+    box-shadow: 0px 4.5px 1px lightgray;
 } 
 
 .review > img {
-    border: 0.5px solid lightgray;
+    border: 0.5px solid white;
     border-radius: 700%;
     width: 230px;
     height: 200px;
-    margin: 10px 20px;
+    margin: 10px 50px;
 }
 
 .review > p {
     display: inline;
-    margin-left: 60px;
+    margin-left: 30px;
+    margin-right: 80px; 
 }
 
 .review .image {
@@ -368,20 +372,23 @@ button {
 
 .closingstatement > h3 {
     border: 1px solid lightgray;
-    padding: 20px 200px;
+    padding: 20px 300px;
     background-color: rgb(250, 246, 246);
     border-radius: 5px;
     font-size: 12px;
-}
-
-.traveltype > h3 {
-    margin-top: 0em;
 }
 
 .top-preference {
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+
+.top-selection > img {
+    width: 275px;
+    height: 350px;
+    margin: 0px 40px;
+
 }
 
 .top-selection > h3 {
