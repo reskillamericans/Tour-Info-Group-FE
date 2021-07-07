@@ -202,15 +202,22 @@ button {
 
 .review {
     display: flex;
+    flex-direction: row;
     margin-top: 20px;
-    /* border: 0.5px solid lightgray; */
-    border-radius: 5px;
-    box-shadow: 20px;
-    
+    align-items: center;
+    box-shadow: w
+} 
+
+.review > img {
+    border: 0.5px solid lightgray;
+    border-radius: 700%;
+    width: 230px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 .review > p {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .review .image {
