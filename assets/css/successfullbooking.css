@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple: #7307c8;
+    --white: #fff;
+    --black: #000;
+    --lightgray: rgb(219, 219, 219);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+} 
+
+h1, h2, h3 {
+  text-align: center;
+  color: var(--black);
+}
+
+.menucontainer {
+  display: flex;
+  justify-content: center; 
+}
+
+.menu {
+  padding-top: 5vh;
+  width: 1000px;
+}
+
+.menu img {
+  width: 60%;
+  margin-top: -15px;
+}
+
+.menu a {
+ float: left;
+ display: block;
+ color: var(--black);
+ text-decoration: none;
+}
+
+.menu ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ display: inline-flex;
+ align-items: center;
+}
+
+.right li {
+ padding-right: 25px;
+}
+
+.right {
+  float: right;
+}
+
+.right .purpbg {
+  background-color: var(--purple);
+  color: var(--white);
+  font-weight: bold;
+  padding: .5rem 2rem;
+  border-radius: 10px;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+
+.confetti > img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.mid-container {
+  display: block;
+  float: left;
+}
