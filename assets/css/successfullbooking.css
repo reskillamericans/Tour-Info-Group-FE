@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
 } 
 
 .menucontainer {
@@ -32,22 +32,22 @@ body {
 }
 
 .menu a {
- float: left;
- display: block;
- color: var(--black);
- text-decoration: none;
+  float: left;
+  display: block;
+  color: var(--black);
+  text-decoration: none;
 }
 
 .menu ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- display: inline-flex;
- align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
 }
 
 .right li {
- padding-right: 25px;
+  padding-right: 25px;
 }
 
 .right {
