@@ -75,12 +75,13 @@ body {
 
 .confetti > img {
   width: 200px;
-  margin-bottom: 10px;
-  
+  margin-top: 20px;
+  margin-bottom: 10px;  
 }
 
 .mid-container {
-  margin-left: 80px;
+  margin-left: 140px;
+  margin-top: 40px;
 }
 
 #contact {
@@ -90,14 +91,15 @@ body {
 
 button{
   border-radius: 5px;
-  width:200px;
-  height: 40px;
+  border: none;
+  width:150px;
+  padding: 8px;
   background-color: var(--purple);
   color: #fff;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-  margin-top: 15px;
+  margin-top: 50px;
   margin-left: 550px;
 }
 
@@ -105,19 +107,13 @@ button{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 10%;
+  margin-top: 5%;
 }
 
 .prefooter{
-  display: flex;
+ display: flex;
  flex-direction: row;
- padding: 4rem;
- /*justify-content: center;
- align-items: center;
- z-index: 5;
- height: 20vh;
- margin: 6vh 0 0 0; */
- margin-bottom: 0;
+ padding: 30px;
  background-color: var(--darkgray);
 }
 
@@ -137,6 +133,10 @@ button{
  padding-right: 60px;
 }
 
+.footerleft {
+  margin-left: 60px;
+}
+
 .socialmediaicons {
  display: inline-flex;
  color: var(--teal);
@@ -144,58 +144,79 @@ button{
 
 .socialmediaicons li {
  margin: 1rem 1.25rem 0 0;
+
 }
 
 .newsletter {
- padding-left: 300px;
+ padding-left: 400px;
 }
 
 
 .newsletter h1 {
  color: var(--white);
+ margin-bottom: 20px;
 }
 
 .newsletter input[type=email] {
  border: none;
- width: 30%;
+ width: 240px;
+ height: 40px;
  background: var(--white);
  border-radius: .25rem;
- margin: 0 1rem 0 0;
- padding: .75rem 12rem .75rem 1rem;
+ padding: 0px 20px;
+ margin-top: 20px;
+ 
+ 
 }
 
 .newslettercontainer {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+
 }
 
 .newslettercontainer #signup {
   margin-left: 50px;
+  margin-top: 8px;
+  border: none;
 }
 
 footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2rem 0;
+background-color: #09CCC0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 5%;
+}
+
+/* footer {
  display: flex;
  flex-direction: column;
  align-items: center;
  padding: 2rem 0;
  background-color: #09CCC0;
  /* background-image: url("/assets/img/Main Top Image.png"); */
- background-position: center;
+ /* background-position: center;
  background-repeat: no-repeat;
- background-size: cover;
+ background-size: cover; */
 }
 
-footer h2 {
+
+/* footer  h2 {
  color: var(--white);
  margin-bottom: 1rem;
-}
+} */
 
-/*.footer p {
+ footer p {
  font-weight: bold;
  padding: 15vh 0;
 }
 
-.footer h1 {
- padding-top: 10vh;
+.footer h2 {
+ padding-top: 1.5vh;
  color: var(--white);
-} */
+} 
