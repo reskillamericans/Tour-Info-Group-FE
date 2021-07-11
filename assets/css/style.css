@@ -249,9 +249,6 @@ button {
     justify-content: space-evenly;
 }
 
-<<<<<<< HEAD
-.destination-left > img {
-=======
 .tour-container img {
     width: 450px;
     height: auto;
@@ -259,7 +256,6 @@ button {
 }
 
 .destination-left .item {
->>>>>>> e2051d82c73b9dfc3607158d8142aeb86e207f63
     margin: 5px 0px;
     width: 400px;
     height: 250px;
@@ -340,27 +336,6 @@ button {
 
 .testimonialcontainer {
     display: flex;
-<<<<<<< HEAD
-    flex-direction: row;
-    margin: 10px;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0px 4.5px 1px lightgray;
-} 
-
-.review > img {
-    border: 0.5px solid white;
-    border-radius: 700%;
-    width: 230px;
-    height: 200px;
-    margin: 10px 50px;
-}
-
-.review > p {
-    display: inline;
-    margin-left: 30px;
-    margin-right: 80px; 
-=======
     background-color: var(--white);
     margin-top: 20px;
 
@@ -373,7 +348,6 @@ button {
 
 .testimonialcontainer > p {
     margin-left: 40px;
->>>>>>> e2051d82c73b9dfc3607158d8142aeb86e207f63
 }
 
 .testimonialimg {
