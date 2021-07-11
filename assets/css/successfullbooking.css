@@ -170,15 +170,18 @@ button{
 }
 
 .newslettercontainer {
-  display: inline-flex;
-  flex-direction: row;
-
+  margin-top: 10px;
 }
 
-.newslettercontainer #signup {
+/* .newslettercontainer #signup {
   margin-left: 50px;
-  margin-top: 8px;
+  margin-top: 5px;
   border: none;
+} */
+
+#signup {
+  margin-left: 50px;
+
 }
 
 footer {
