@@ -70,6 +70,13 @@ body {
   margin-top: 40px;  
 }
 
+.middlesection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
 .leftcontainer {
   display: flex;
   flex-direction: row;
@@ -78,12 +85,13 @@ body {
 
 .AddressnNumber {
   background-color: #09CCC0;
-  margin: 0px 40px;
+  margin: 0px 20px;
 }
 
 .AddressnNumber h4 {
   padding: 10px;
   margin-bottom: 250px;
+  margin: 0px 2.5px
 }
 
 #address {
@@ -92,28 +100,76 @@ body {
   padding: 10px;
 }
 
-.Address-Info {
-  margin: 28px;
-}
-
 .Address-Info h4 {
   color: #7307c8;
   margin-bottom: 20px;
 }
 
+.secondleft {
+  margin: 28px;
+}
+
 .experts-info {
   margin-top: 90px;
-  margin-left: 30px;
 }
 
 .experts-info h4 {
+  color: #7307c8; 
+  margin-bottom: 20px; 
+}
+
+.experts-info {
+  margin-bottom: 50px;
+}
+
+.support-team > p {
+  margin-bottom: 20px;
   color: #7307c8;
-  
-  
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.support-team h4{
+  font-size: 14px;
+  font-weight: 400;
 }
 
 
+.rightcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 70px;
+}
 
+.Name-Email-Message {
+  background-color: #09CCC0;
+  margin: 0px 40px;
+}
+
+#name {
+  margin: 10px 0px;
+  padding: 20px;
+
+}
+
+#email {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 0px 20px;
+}
+
+#message {
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+.second-right h4 {
+  margin-top: 0px;
+}
+.input-field {
+  margin: 28px;
+}
 
 
 
@@ -125,13 +181,13 @@ body {
   flex-direction: row;
   padding: 30px;
   background-color: var(--darkgray);
- }
+}
  
- .prefooter ul {
+.prefooter ul {
   list-style-type: none;
- }
+}
  
- .prefooter a {
+.prefooter a {
   color: var(--white);
   text-decoration: none;
  }
