@@ -240,7 +240,7 @@ button {
 }
 
 .tour-container > .tour-left , .tour-right {
-    margin: 20px 50px;
+    margin: 20px 30px;
 }
 
 .tour-container {
@@ -257,6 +257,8 @@ button {
 
 .destination-left .item {
     margin: 5px 0px;
+    width: 400px;
+    height: 250px;
 }
 
 .destination-left > h3 {
@@ -264,8 +266,10 @@ button {
     margin-top: 40px;
 }
 
-.destination-right .item {
+.destination-right > img {
     margin: 5px 0px;
+    width: 400px;
+    height: 250px;
 }
 
 .destination-right > h3 {
@@ -369,20 +373,23 @@ button {
 
 .closingstatement > h3 {
     border: 1px solid lightgray;
-    padding: 20px 200px;
+    padding: 20px 300px;
     background-color: rgb(250, 246, 246);
     border-radius: 5px;
     font-size: 12px;
-}
-
-.traveltype > h3 {
-    margin-top: 0em;
 }
 
 .top-preference {
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+
+.top-selection > img {
+    width: 275px;
+    height: 350px;
+    margin: 0px 40px;
+
 }
 
 .top-selection > h3 {
@@ -395,7 +402,7 @@ button {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin-top: 20px; 
+    margin-top: 30px; 
 }
 
 .bottom-selection > h3 {
@@ -403,11 +410,17 @@ button {
     font-size: 18px;
 }
 
+.bottom-selection > img {
+    width: 575px;
+    height: 250px;
+    margin-right: 60px;
+}
 
 .bottom-preference > button {
     width: 200px;
-    height: 50px;
+    height: 35px;
     margin: 0px 5px;
+    padding: 0px 20px;
     border-radius: 5px;
 }
 
