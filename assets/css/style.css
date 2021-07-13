@@ -7,7 +7,6 @@
 
 :root {
     --purple: #7307c8;
-    --lightpurple: #bc9ed3;
     --white: #fff;
     --black: #000;
     --lightgray: rgb(219, 219, 219);
@@ -60,9 +59,8 @@ h1, h2, h3 {
 .menu a {
    float: left;
    display: block;
-   color: var(--mediumgray);
+   color: var(--black);
    text-decoration: none;
-   font-weight: bold;
 }
 
 .menu ul {
@@ -132,7 +130,7 @@ section {
     /* border-radius: 25px; */
 }
 
-.seachcontainer {
+.searchcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,6 +191,7 @@ button {
     margin-top: 80px;
 }
 
+
 .tours {
     width: 410px;
     display: flex;
@@ -209,26 +208,27 @@ button {
     border-radius: 0 0 15px 15px;
 }
 
+.right {
+    float: right;
+}
+
+ /* img {
+    width: 20%; 
+} */
+
+.menu {
+    float: right;
+}
+
 .toursimgframe {
     width: 400px;
     height: 500px;
     margin: 0 20px;
+    background-image: url("/assets/img/Rectangle 75.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-}
-
-.tif1 {
-    background-image: url("/assets/img/Rectangle 75.png");
-}
-
-.tif2 {
-    background-image: url("/assets/img/nationalpark.png");
-}
-
-.tif3 {
-    background-image: url("/assets/img/Rectangle 76.png");
 }
 
 .tritoursblurb p {
@@ -237,6 +237,82 @@ button {
 
 .tritoursblurb button {
     margin-top: 70px;
+}
+
+
+
+.tritoursblurb p {
+    padding: 0 20rem;
+}
+
+
+
+
+
+
+/* 
+.menu a {
+    float: left;
+    display: block;
+    color: #000;
+   text-align: center;
+        padding: 14px 20px; 
+    text-decoration: none;
+}
+  
+
+.right {
+    float: right;
+}
+
+.menu {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+li {
+    padding-right: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+>>>>>>> c641b12ad0a940a97742771820fb322104e3eca4
+button {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 25px;
+<<<<<<< HEAD
+>>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
+=======
+>>>>>>> c641b12ad0a940a97742771820fb322104e3eca4
+}
+
+.boop {
+    text-align: center;
+    padding: 20vh 0 10vh 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; 
+} */
+
+
+.wblistcontainer button {
+    background-color: var(--lightgray);
+    color: var(--black);
 }
 
 .tour-container > .tour-left , .tour-right {
@@ -249,12 +325,6 @@ button {
     justify-content: space-evenly;
 }
 
-.tour-container img {
-    width: 450px;
-    height: auto;
-    padding-top: 1rem;
-}
-
 .destination-left .item {
     margin: 5px 0px;
     width: 400px;
@@ -263,7 +333,7 @@ button {
 
 .destination-left > h3 {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .destination-right > img {
@@ -274,7 +344,7 @@ button {
 
 .destination-right > h3 {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .wblistcontainer {
@@ -331,45 +401,33 @@ button {
     margin-top: -8px;
     border-radius: 5px;
     padding: 10px 5px;
-    background-color: var(--lightpurple);
+    background-color: rgb(219, 218, 218);
+
 }
 
-.testimonialcontainer {
+
+.wblistleft li {
+    list-style-type: none;
     display: flex;
-    background-color: var(--white);
-    margin-top: 20px;
-
-    border-radius: 5px;
-    padding: 4rem 5rem;
-    box-shadow: 20px;
-    align-items: center;
-    filter: drop-shadow(0px 4px 1px var(--lightgray));
+    justify-content: center;
 }
 
-.testimonialcontainer > p {
+.review {
+    display: flex;
+    margin-top: 20px;
+    /* border: 0.5px solid lightgray; */
+    border-radius: 5px;
+    box-shadow: 20px;
+    
+}
+
+.review > p {
     margin-left: 40px;
 }
 
-.testimonialimg {
-	width: 10em;
-	height: 10em;
-    overflow: hidden;
-	-moz-border-radius: 5em;
-	-webkit-border-radius: 5em;
-	border-radius: 5em;
-} 
-
-
-/*.reviewimgcontainer {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}*/
-
- .testimonialcontainer .image { 
-    width: auto;
-    height: 100%;
-} 
+.review .image {
+    border-radius: 80px;
+}
 
 .closingstatement > h3 {
     border: 1px solid lightgray;
