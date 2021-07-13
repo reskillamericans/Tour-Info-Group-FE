@@ -139,7 +139,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  margin-left: 70px;
+  margin-left: 90px;
 }
 
 .Name-Email-Message {
@@ -166,12 +166,22 @@ body {
 
 .second-right h4 {
   margin-top: 0px;
+  
 }
+
 .input-field {
-  margin: 28px;
+  margin-top: 40px;
+  margin-right: 70px;
 }
 
+.bottom-right {
+  display: inline-flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: space-evenly;
+  margin-top: 550px;
 
+}
 
 
 
