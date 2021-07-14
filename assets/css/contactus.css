@@ -163,14 +163,37 @@ body {
   margin: 0px 5px;
 }
 
-.second-right h4 {
-  margin-top: 0px;
-  
+.secondright h4 {
+  color: #7307c8;
 }
 
 .input-field {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-right: 70px;
+}
+
+.enter-name #name {
+  padding: 5px 100px;
+  background-color: rgb(228, 224, 224);
+  border-radius: 2.5px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.enter-email #email {
+  padding: 5px 100px;
+  background-color: rgb(228, 224, 224);
+  border-radius: 2.5px;
+  margin-top: 0px;
+  border: none;
+}
+
+.write-msg #msg {
+  padding: 150px 100px;
+  background-color: rgb(228, 224, 224);
+  border-radius: 2.5px;
+  margin-top: 0px;
+  border: none;
 }
 
 .bottom-container {
