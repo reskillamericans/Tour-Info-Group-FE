@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --purple: #7307c8;
+    --white: #fff;
+    --black: #000;
+    --lightgray: rgb(219, 219, 219);
+    --mediumgray: #8a8a8a;
+    --darkgray: #333;
+    --teal: #09CCC0
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+} 
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+   /* padding-top: 5vh;
+     width: 1600px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu img {
+    margin-left: 4rem;
+    width: 60%;
+    /* margin-top: -15px; */
+}
+
+.menu a {
+   float: left;
+   display: block;
+   color: var(--black);
+   text-decoration: none;
+}
+
+.menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: inline-flex;
+   align-items: center;
+}
+
+.right li {
+   padding-left: 20px;
+}
+
+/* .right {
+    float: right;
+} */
+.right{
+left: 875px;
+position: relative;
+}
+
+.right .purpbg {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: bold;
+    padding: 2rem;
+    /* padding: .5rem 2rem;
+    border-radius: 10px; */
+}
+
+.right i {
+    color: var(--purple);
+}
+
+.signin > a:nth-child(1) {
+    color: var(--purple);
+}
+
+
+.far {
+    margin-right: 10px;
+}
+  
+
+
+/* .bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.prefooter{
+ display: flex;
+ flex-direction: row;
+ padding: 30px;
+ background-color: var(--darkgray);
+}
+
+.prefooter ul {
+ list-style-type: none;
+}
+
+.prefooter a {
+ color: var(--white);
+ text-decoration: none;
+}
+
+.footerlinks {
+ color: var(--white);
+ text-transform: uppercase;
+ font-weight: bold;
+ padding-right: 60px;
+}
+
+.footerleft {
+  margin-left: 60px;
+}
+
+.socialmediaicons {
+ display: inline-flex;
+ color: var(--teal);
+}
+
+.socialmediaicons li {
+ margin: 1rem 1.25rem 0 0;
+
+}
+
+.newsletter {
+ padding-left: 400px;
+}
+
+
+.newsletter h1 {
+ color: var(--white);
+ margin-bottom: 20px;
+}
+
+.newsletter input[type=email] {
+ border: none;
+ width: 240px;
+ height: 40px;
+ background: var(--white);
+ border-radius: .25rem;
+ padding: 0px 20px;
+ margin-top: 20px; 
+}
+
+.newslettercontainer {
+  margin-top: 10px;
+}
+
+#signup {
+  margin-left: 50px;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2rem 0;
+background-color: #09CCC0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 5%;
+}
+
+
+
+/* footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2rem 0;
+ background-color: #09CCC0;
+ /* background-image: url("/assets/img/Main Top Image.png"); */
+ /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; */
+
+
+/* login in page css start */
+.container {
+  margin-top: 10px; 
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{  margin-top: 30px;
+    padding: 0 0 12px 0;
+}
+h3{
+  padding-right: 30px;
+}
+h6{
+    margin-bottom: 20px;
+    padding-right:2rem;
+}
+input[type=email], [type=password]{
+  width: 20rem;
+  background-color:white;
+  position: absolute;
+  border-color: grey;
+  border-radius: 3px;
+  line-height:  25px;
+  }
+  
+.forgot-password {
+  position:relative;
+   text-align: left;
+   float: left;
+  font-size: 20px;
+  
+   }
+ 
+.small-font{
+  font-size: .5em;
+  margin: 4px;
+}
+.blue{
+  color: rgb(80, 90, 221);
+ }
+ .left-img{
+    float: left;
+   width: 30px;
+    
+ }
+ .right-text{
+  float: right;
+  margin-left: -5px;;
+  margin-top:10px;
+  font-size: 1.5rem;
+}
+.left{
+  float: left;
+
+}
+
+
+.subtitle {
+  margin: 0 27px -3em 0;
+}
+.fancy {
+  line-height: 10.5;
+  text-align: center;
+  margin-left: 3px;
+  
+  
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  border-bottom: 1px solid black;
+  margin-top: 80px;
+  top: 0;
+  width:80px;
+  
+}
+.fancy span:before {
+  right: 100%; 
+  margin-right: 10px;
+  margin-top:0 auto;
+  width: 50px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 12px;
+  width: 200px;
+  margin-top:0 auto;
+} 
+input[type=checkbox]{
+  margin-left: 5px;
+  margin-top: 4px;
+
+}
+.right-signin{
+ 
+  /* width: 4rem;
+  margin: 0px; */
+    width: 6rem;
+    line-height:25px;
+    margin-bottom:20px;
+    background-color:#7307c8;
+    border-radius: 9px;
+    color: white;
+    margin-left: 100px
+    
+}
+.remember-left{
+  margin:6px;
+}
+
+
+/* footer css start */
+.bottom-container {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5%; */
+           position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            /* Height of the footer*/ 
+            height:230px;
+}
+
+.prefooter{
+ display: flex;
+ flex-direction: row;
+ padding: 5px;
+ background-color: var(--darkgray);
+}
+
+.prefooter ul {
+ list-style-type: none;
+ margin: auto;
+}
+
+.prefooter a {
+ color: var(--white);
+ text-decoration: none;
+}
+
+.footerlinks {
+ color: var(--white);
+ text-transform: uppercase;
+ font-weight: bold;
+ padding-right: 60px;
+}
+
+.footerleft {
+  margin-left: 60px;
+}
+
+.socialmediaicons {
+ display: inline-flex;
+ color: var(--teal);
+}
+
+.socialmediaicons li {
+ margin: 1rem 1.25rem 0 0;
+
+}
+
+.newsletter {
+ padding-left: 400px;
+}
+
+
+.newsletter h1 {
+ color: var(--white);
+ margin-bottom: 20px;
+}
+
+.newsletter input[type=email] {
+ border: none;
+ width: 200px;
+ height: 30px;
+ background: #7307c8;
+ color:white;
+ border-radius: .25rem;
+ padding: 0px 20px;
+ margin-top: 5px; 
+}
+
+.newslettercontainer {
+  margin-top: 5px;
+}
+
+#signup {
+  margin-left: 300px;
+  margin-top: 5px;
+  height: 30px;
+  width:130px;
+  background-color: #7307c8;
+  color:white;
+  border-radius: .25rem;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem 0;
+background-color: #09CCC0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 48%;
+}
+
+
+
+/* footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2rem 0;
+ background-color: #09CCC0;
+ /* background-image: url("/assets/img/Main Top Image.png"); */
+ /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; 
+}*/
+
+
+footer > h2 {
+ margin: 2px;
+ color:white;
+  line-height:0px;
+} 

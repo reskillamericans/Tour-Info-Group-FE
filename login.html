@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style type="text/css">@import url(style.css);</style>
+   
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Touryst</title>
         <link rel="shortcut icon" type="image/jpg" href=""/>
+       <link rel="stylesheet" href="/assets/css/login.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     </head>
 
 <body>
-    <div class="container">
+    <header class="header">
         <div class="menu">
-            <a href="#"><img src="placeholderlogo.jpg" alt="Touryst Logo"></a>
+            <a href="#"><img src="/assets/img/Group 186.png" alt="Touryst Logo"></a>
             <ul class="right">
-                <li><a href="./contactus.html"><i class="fas fa-search"></i>Search</a></li>
-                <li><a href="./contactus.html">About Us <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="./contactus.html">Destination <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="./contactus.html">Tour Type <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="signin"><a href="#"><i class="far fa-user-circle"></i>Sign In</a></li>
+                <li><a href="#" class="purpbg">Join Now</a></li>
             </ul>
         </div>
-    </div>
-
-    <div class="boop"><h3>Login To Your Account</h3></div>
-    <div class="form-container">
+    </header>
+<div class="container">
+      <div class="form">
         <form>
-            <fieldset>
-            <input type="text" id="username" name="username" value="Username"><br>
-            <input type="text" id="password" name="password" value="Password"><br><br>
-            <button type="button">Sign In</button> 
-            </fieldset>
-
-            <input type="checkbox" id="rememberMe" name="rememberMe" value="Yes">
-            <label for="rememberMe">Remember Me</label></br><button type="button">Forgot Password</button> 
+            <h2>Sign in <span class="small-font">or</span> Create Account</h2>
+            <div>
+            <img class="left-img"src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="google-logo" width="20" height="50">
+            <h3 class="blue right-text">Sign in with Google</h3>
+            </div>
+              <p class="subtitle fancy"><span>or</span></p>
+                <label class="label"for="fname">Email</label><br>
+                 <input type="email" id="email" name="email"><br><br/>
+                 <label class="label" for="password">Password</label><br>
+                 <input type="password" id="password" name="password"><br><br>
+                <div class="line"> 
+                   <label for="remember"><input class="remember-left" type="checkbox" id="remember" name="remember">Remember Me</label>
+                   <button class="right-signin">Sign In</button>
+                <div>
+                     <divclass="forgot-password">
+                         <a href="#" title="Forgot Password" id="link-reset">Forgot your password?</a>
+                     </divclass=>
+                 </div>
         </form>
-    </div>
+      </div>
+</div>
 
-    <div class="sm-icon">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-pinterest"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
+    <div class="bottom-container">
+
+      <section class="prefooter">
+        <div class="footerleft">
+          <ul class="footerlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+
+          <ul class="socialmediaicons">
+            <li><i class="fab fa-twitter fa-2x"></i></li>
+            <li><i class="fab fa-facebook fa-2x"></i></li>
+            <li><i class="fab fa-instagram fa-2x"></i></li>
+          </ul>
+        </div>
+
+        <div class="newsletter">
+            <h1>Be in the know on all travel deals and news</h1>
+          <div class="newslettercontainer">
+            <input type="email" placeholder="Email Address: "><button id="signup" type="submit">Sign Up</button>
+          </div>
+        </div>
+        
+      </section>
+
+
+      <footer>
+        <h2>Experience the Adventure that Awaits you!</h2>
+        <p> &#169; 2021 Toursyt | All Rights Reserved </br>
+        Privacy Policy | Terms & Conditions</p>
+      </footer>
+
     </div>
+ 
 </body>
 
 </html> 
