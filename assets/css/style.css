@@ -40,6 +40,7 @@ h1, h2, h3 {
 .menu {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
   }
   
   .menu img {
