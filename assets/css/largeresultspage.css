@@ -40,7 +40,7 @@ p {
     font-size: 14px;
 }
 
-.header {
+ .header {
     display: flex;
     justify-content: center;
 }
@@ -98,8 +98,8 @@ position: relative;
 
 
 .far {
-    margin-right: 10px;
-}
+    margin-right: 10 px;
+} /**/
 
 button {
     background-color: var(--purple);
@@ -122,9 +122,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; 
     margin: 90px 0;
-    padding: 20px 0;*/
+    padding: 20px 0;
 }
 
 .tourimg {
@@ -136,22 +135,85 @@ section {
     padding: 0;
 }
 
+/*----------------------------------------------- OVERVIEW -----------------------------------------------*/
+
+.overview h3 {
+    padding: 2rem 0 0 0;
+}
+
+.overview p {
+    padding-top: .6rem;
+}
+
 .headline {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
 .headline h3 {
     padding-right: 10rem;
 }
 
+.headline i {
+    padding: 0 .6rem 0 2.8rem;
+}
 
+.headline p {
+    font-weight: bold;
+}
+
+/*----------------------------------------------- TESTIMONIAL -----------------------------------------------*/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    margin: 0 5rem;
+}
+
+
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--mediumgray);
+}
+
+.test > i {
+    padding-right: .9rem;
+}
+
+.namemonth {
+    width: 9vw;
+}
 
 .starcontainer {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
+.starcontainer i {
+    padding: 0 .2rem;
+    color: var(--teal);
+}
+
+
+.testtxt {
+    padding-left: 2rem;
+  }
+  
+.testimonial button {
+    width: 20%;
+    align-items: center; 
+}
+
+.nearby {
+    align-items: center; 
+}
 
 .nearbycitiescontainer {
     display: flex;
@@ -183,7 +245,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 
 .prefooter{
