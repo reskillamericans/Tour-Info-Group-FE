@@ -18,26 +18,21 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 } 
 
-.menucontainer {
-  display: flex;
-  justify-content: center; 
-}
-
 .menu {
-  padding-top: 4vh;
-  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .menu img {
   width: 60%;
-  margin-top: -15px;
+  padding: 0.9rem 0 0 0;
 }
 
 .menu a {
-  float: left;
-  display: block;
-  color: var(--black);
+  color: var(--mediumgray);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .menu ul {
@@ -49,19 +44,26 @@ body {
 }
 
 .right li {
-  padding-right: 25px;
-}
-
-.right {
-  float: right;
+  padding-left: 25px;
 }
 
 .right .purpbg {
   background-color: var(--purple);
   color: var(--white);
   font-weight: bold;
-  padding: .5rem 2rem;
-  border-radius: 5px;
+  padding: 2rem;
+}
+
+.right i {
+  color: var(--purple);
+}
+
+.signin > a:nth-child(1) {
+  color: var(--purple);
+}
+
+.far {
+  margin-right: 10px;
 }
 
 .upper-container {
