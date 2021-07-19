@@ -18,26 +18,21 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 } 
 
-.menucontainer {
-  display: flex;
-  justify-content: center; 
-}
-
 .menu {
-  padding-top: 4vh;
-  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .menu img {
   width: 60%;
-  margin-top: -15px;
+  padding: 0.9rem 0 0 0;
 }
 
 .menu a {
-  float: left;
-  display: block;
-  color: var(--black);
+  color: var(--mediumgray);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .menu ul {
@@ -49,19 +44,26 @@ body {
 }
 
 .right li {
-  padding-right: 25px;
-}
-
-.right {
-  float: right;
+  padding-left: 25px;
 }
 
 .right .purpbg {
   background-color: var(--purple);
   color: var(--white);
   font-weight: bold;
-  padding: .5rem 2rem;
-  border-radius: 5px;
+  padding: 2rem;
+}
+
+.right i {
+  color: var(--purple);
+}
+
+.signin > a:nth-child(1) {
+  color: var(--purple);
+}
+
+.far {
+  margin-right: 10px;
 }
 
 .topcontainer {
@@ -222,103 +224,79 @@ body {
 }
 
 
-.prefooter{
+.prefooter {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  justify-content: space-around;
+  margin-bottom: 0;
+  padding: 4rem; 
   background-color: var(--darkgray);
 }
- 
+
 .prefooter ul {
   list-style-type: none;
 }
- 
+
 .prefooter a {
   color: var(--white);
   text-decoration: none;
- }
- 
- .footerlinks {
+}
+
+.footerlinks {
   color: var(--white);
   text-transform: uppercase;
   font-weight: bold;
-  padding-right: 60px;
- }
- 
- .footerleft {
-   margin-left: 60px;
- }
- 
- .socialmediaicons {
+}
+
+.socialmediaicons {
   display: inline-flex;
   color: var(--teal);
- }
- 
- .socialmediaicons li {
+}
+
+.socialmediaicons li {
   margin: 1rem 1.25rem 0 0;
- 
- }
- 
- .newsletter {
-  padding-left: 400px;
- }
- 
- 
- .newsletter h1 {
+}
+
+.newsletter h1 {
   color: var(--white);
-  margin-bottom: 20px;
- }
- 
- .newsletter input[type=email] {
+}
+
+.newsletter input[type="email"] {
   border: none;
-  width: 240px;
-  height: 40px;
+  width: 50%;
   background: var(--white);
-  border-radius: .25rem;
-  padding: 0px 20px;
-  margin-top: 20px; 
- }
+  border-radius: 0.25rem;
+  margin: 0 1rem 0 0;
+   padding: 0.75rem 12rem 0.75rem 1rem;
+}
  
- .newslettercontainer {
-   margin-top: 10px;
- }
- 
- #signup {
-   margin-left: 50px;
- }
- 
- footer {
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 2rem 0;
- background-color: #09CCC0;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- height: 5%;
- }
- 
- /* footer {
-  display: flex;
-  flex-direction: column;
+footer {
+  background-image: url(https://placeimg.com/1000/600/arch);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.footertxtcontainer {
+  background-color: #09ccbfb7;
+  height: inherit;
+}
+
+.footertxt {
+  display: flex;  
+  flex-direction:column;
   align-items: center;
   padding: 2rem 0;
-  background-color: #09CCC0;
-  /* background-image: url("/assets/img/Main Top Image.png"); */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
- }
+}
+
+.footertxt h2 {
+ color: var(--white);
+ margin-bottom: 1rem;
+}
+ 
+
  
  
- footer p {
-  font-weight: bold;
-  padding: 10vh 0;
- }
  
- footer > h2 {
-  padding-top: 1.5vh;
-  color: var(--white);
- } 
  
