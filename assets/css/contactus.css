@@ -212,7 +212,7 @@ body {
   align-items: center;
 }
 
-#button {
+button {
   display: block;
   height: 30px;
   width: 120px;
