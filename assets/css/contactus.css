@@ -224,7 +224,7 @@ body {
 }
 
 
-.prefooter {
+ .prefooter {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -293,7 +293,7 @@ footer {
 .footertxt h2 {
  color: var(--white);
  margin-bottom: 1rem;
-}
+} 
  
 
  
