@@ -4,7 +4,6 @@ To Do
 
 Header Footer Responsiveness:
 Figure out how to remove the class fr-2x from the font awesome social media icons when the browser window is a specific size. (https://www.w3schools.com/howto/howto_js_remove_class.asp)
-Fix newsletter section
 Fix menu
 
 
