@@ -35,77 +35,56 @@ h1, h2, h3 {
     text-align: center;
     color: var(--black);
 }
-
-.header {
-    display: flex;
-    justify-content: center;
-}
+/*-----------------------HEADER------------------------------*/
 
 .menu {
-   /* padding-top: 5vh;
-     width: 1600px; */
-    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
-}
-
-.menu img {
-    margin-left: 1.5rem;
+  }
+  
+  .menu img {
     width: 60%;
-    /* margin-top: -15px; */
-}
-
-.menu a {
-   float: left;
-   display: block;
-   color: var(--black);
-   text-decoration: none;
-}
-
-.menu ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   display: inline-flex;
-   align-items: center;
-}
-
-.right li {
-   padding-left: 25px;
-}
-
-/* .right {
-    float: right;
-} */
-.right{
-left: 875px;
-position: relative;
-}
-
-.right .purpbg {
+    padding: 0.9rem 0 0 0;
+  }
+  
+  .menu a {
+    color: var(--mediumgray);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .right li {
+    padding-left: 25px;
+  }
+  
+  .right .purpbg {
     background-color: var(--purple);
     color: var(--white);
     font-weight: bold;
     padding: 2rem;
-    /* padding: .5rem 2rem;
-    border-radius: 10px; */
-}
-
-.right i {
+  }
+  
+  .right i {
     color: var(--purple);
-}
-
-.signin > a:nth-child(1) {
+  }
+  
+  .signin > a:nth-child(1) {
     color: var(--purple);
-}
-
-
-.far {
+  }
+  
+  .far {
     margin-right: 10px;
-}
-   
-
+  }
+  
 section {
     display: flex;
     flex-direction: column;
@@ -114,6 +93,9 @@ section {
     margin: 90px 0;
     padding: 20px 0;
 }
+
+/*----------------------- BODY STYLING ------------------------------*/
+
 
 .heroimg {
     display: flex;
@@ -173,13 +155,7 @@ button {
 }
 
 
-/*  
-.seachcontainer > button {
-    margin-bottom: 0px;
-  }
-*/
-
-  .tritours > h3 {
+.tritours > h3 {
     color: var(--black);
 }
 
@@ -212,13 +188,9 @@ button {
     float: right;
 }
 
- /* img {
-    width: 20%; 
-} */
-
-.menu {
+/* .menu {
     float: right;
-}
+} */
 
 .toursimgframe {
     width: 400px;
@@ -244,71 +216,6 @@ button {
 .tritoursblurb p {
     padding: 0 20rem;
 }
-
-
-
-
-
-
-/* 
-.menu a {
-    float: left;
-    display: block;
-    color: #000;
-   text-align: center;
-        padding: 14px 20px; 
-    text-decoration: none;
-}
-  
-
-.right {
-    float: right;
-}
-
-.menu {
-    float: right;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-}
-
-li {
-    padding-right: 25px;
-}
-
-fieldset {
-    border: none;
-}
-
->>>>>>> c641b12ad0a940a97742771820fb322104e3eca4
-button {
-    background-color: var(--purple);
-    color: var(--white);
-    text-align: center;
-    margin: 20px 0;
-    padding: 10px 45px;
-    border: none;
-    border-radius: 25px;
-<<<<<<< HEAD
->>>>>>> c67c5a0af1927e21b7ba556876bd4bdba3eece7b:assets/css/style.css
-=======
->>>>>>> c641b12ad0a940a97742771820fb322104e3eca4
-}
-
-.boop {
-    text-align: center;
-    padding: 20vh 0 10vh 0;
-}
-
-.form-container {
-    display: flex;
-    justify-content: center; 
-} */
-
 
 .wblistcontainer button {
     background-color: var(--lightgray);
@@ -493,83 +400,78 @@ button {
     padding: 1rem;
 }
 
-.prefooter{
-     display: flex;
+/*----------------------- SOCIAL AND NEWSLETTER SECTION START ------------------------------*/
+
+.prefooter {
+    display: flex;
     flex-direction: row;
-    padding: 4rem;
-    /*justify-content: center;
-    align-items: center;
-    z-index: 5;
-    height: 20vh;
-    margin: 6vh 0 0 0; */
+    justify-content: space-around;
     margin-bottom: 0;
+    padding: 4rem; 
     background-color: var(--darkgray);
-}
-
-.prefooter ul {
+  }
+  
+  .prefooter ul {
     list-style-type: none;
-}
-
-.prefooter a {
+  }
+  
+  .prefooter a {
     color: var(--white);
     text-decoration: none;
-}
-
-.footerlinks {
+  }
+  
+  .footerlinks {
     color: var(--white);
     text-transform: uppercase;
     font-weight: bold;
-    padding-right: 60px;
-}
-
-.socialmediaicons {
+  }
+  
+  .socialmediaicons {
     display: inline-flex;
     color: var(--teal);
-}
-
-.socialmediaicons li {
+  }
+  
+  .socialmediaicons li {
     margin: 1rem 1.25rem 0 0;
-}
-
-.newsletter {
-    padding-left: 600px;
-}
-
-.newsletter h1 {
+  }
+  
+  .newsletter h1 {
     color: var(--white);
-}
-
-.newsletter input[type=email] {
+  }
+  
+  .newsletter input[type="email"] {
     border: none;
     width: 50%;
     background: var(--white);
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     margin: 0 1rem 0 0;
-    padding: .75rem 12rem .75rem 1rem;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 0;
-    background-image: url("/assets/img/Main Top Image.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer h2 {
-    color: var(--white);
-    margin-bottom: 1rem;
-}
-
-/*.footer p {
-    font-weight: bold;
-    padding: 15vh 0;
-}
-
- .footer h1 {
-    padding-top: 10vh;
-    color: var(--white);
-} */
+     padding: 0.75rem 12rem 0.75rem 1rem;
+  }
+  
+  /*----------------------- FOOTER START ------------------------------*/
+  
+  footer {
+      background-image: url(https://placeimg.com/1000/600/arch);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  
+  .footertxtcontainer {
+      background-color: #09ccbfb7;
+      height: inherit;
+  }
+  
+  .footertxt {
+      display: flex;  
+      flex-direction:column;
+      align-items: center;
+      padding: 2rem 0;
+  }
+  
+  .footertxt h2 {
+     color: var(--white);
+     margin-bottom: 1rem;
+  }
+  

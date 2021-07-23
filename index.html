@@ -171,12 +171,10 @@
     </section>
 
     <section class="companyInfo">
-        <p>This is the first year for Touryst and we're very happy with providing all our curated and specially designed tours for our special travelers!</p>
+        <p>This is the first year for Touryst and we're very happy with providing all our curated and specially designed tours for our special travelers!</p><button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up"></i></br>Top</button>
     </section>
 
     <section class="prefooter">
-        <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up"></i></br>Top</button>
-
         <div class="footerleft">
             <ul class="footerlinks">
                 <li><a href="#">Home</a></li>
@@ -193,21 +191,21 @@
 
         <div class="newsletter">
             <h1>Be in the know on all travel deals and news</h1>
-        <div class="newslettercontainer">
-            <input type="email" placeholder="Email Address: "><button type="submit">Sign Up</button>
+            <div class="newslettercontainer">
+                <input type="email" placeholder="Email Address: "><button type="submit">Sign Up</button>
+            </div>
         </div>
-        </div>
-        
-</section>
-
-
+    </section>
 
     <footer>
-            <h2>Experience the Adventure that Awaits you!</h2></br>
-            <p> &#169; 2021 Toursyt | All Rights Reserved </br>
-            Privacy Policy | Terms & Conditions</p>
+        <div class="footertxtcontainer">
+            <div class="footertxt">
+                <h2>Experience the Adventure that Awaits you!w</h2></br>
+                <p> &#169; 2021 Toursyt | All Rights Reserved </br>
+                    Privacy Policy | Terms & Conditions</p>
+            </div>
+        </div>
     </footer>
-    
 </body>
 
 <script>
@@ -218,7 +216,7 @@ mybutton = document.getElementById("topBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 800) {
+  if (document.documentElement.scrollTop > 850) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
