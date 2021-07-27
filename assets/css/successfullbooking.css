@@ -82,7 +82,7 @@ body {
 }
 
 .mid-container {
-  margin-left: 140px;
+  margin-left: 140px; 
   margin-top: 40px;
 }
 
@@ -175,3 +175,18 @@ footer {
  color: var(--white);
  margin-bottom: 1rem;
 }
+
+
+/* Media Queries */
+
+/* @media only screen and (min-width:360px) {
+  .mid-container{   
+    margin: 40px 20px !important;
+  }
+} */
+
+/* @media only screen and (max-width:960px) {
+  .mid-container{
+    margin: 60px 50px !important;
+  }
+} */
