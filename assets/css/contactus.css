@@ -180,6 +180,7 @@ body {
   border-radius: 2.5px;
   margin-bottom: 10px;
   border: none;
+  outline: none;
 }
 
 .enter-email #email {
@@ -188,6 +189,7 @@ body {
   border-radius: 2.5px;
   margin-top: 0px;
   border: none;
+  outline: none;
 }
 
 .write-msg #msg {
@@ -196,6 +198,7 @@ body {
   border-radius: 2.5px;
   margin-top: 0px;
   border: none;
+  outline: none;
 }
 
 .bottom-container {
@@ -295,6 +298,13 @@ footer {
  margin-bottom: 1rem;
 } 
  
+@media only screen and (min-width:375px) and (max-midth:812px){
+.middlesection {
+  display: block;
+}
+
+
+}
 
  
  
