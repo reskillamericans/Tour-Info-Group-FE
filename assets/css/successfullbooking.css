@@ -171,10 +171,19 @@ footer {
   padding: 2rem 0;
 }
 
-.footertxt h2 {
- color: var(--white);
- margin-bottom: 1rem;
-}
+
+
+/* footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2rem 0;
+ background-color: #09CCC0;
+ /* background-image: url("/assets/img/Main Top Image.png"); */
+ /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; 
+}*/
 
 
 /* Media Queries */
