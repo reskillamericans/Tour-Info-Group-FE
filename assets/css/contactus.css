@@ -307,6 +307,35 @@ footer {
 }
 
  
+ footer > h2 {
+  padding-top: 1.5vh;
+  color: var(--white);
+ } 
  
- 
- 
+
+ @media only screen and (min-width:360px) {
+  .middlesection{
+    display: block;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  
+  .secondleft {
+    margin: 5px;
+  }
+
+  .Name-Email-Message{
+    margin-left: 2px;
+  }
+
+
+
+
+}
+
+
+ @media only screen and (min-width:960px) {
+   
+}
+
