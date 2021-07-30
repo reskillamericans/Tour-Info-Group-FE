@@ -7,9 +7,10 @@
 
 :root {
     --purple: #7307c8;
+    --lightpurple: #E7CBEF;
     --white: #fff;
     --black: #000;
-    --lightgray: rgb(219, 219, 219);
+    --lightgray: rgb(245, 245, 245);
     --mediumgray: #8a8a8a;
     --darkgray: #333;
     --teal: #09CCC0
@@ -35,6 +36,27 @@ h1, h2, h3 {
     text-align: center;
     color: var(--black);
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+    padding: 20px 0;
+}
+
+button {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 /*-----------------------HEADER------------------------------*/
 
 .menu {
@@ -45,7 +67,7 @@ h1, h2, h3 {
   
   .menu img {
     width: 60%;
-    padding: 0.9rem 0 0 0;
+    padding: 0.9rem 0 0.9rem 0;
   }
   
   .menu a {
@@ -70,7 +92,7 @@ h1, h2, h3 {
     background-color: var(--purple);
     color: var(--white);
     font-weight: bold;
-    padding: 2rem;
+    padding: 3rem;
   }
   
   .right i {
@@ -84,42 +106,30 @@ h1, h2, h3 {
   .far {
     margin-right: 10px;
   }
-  
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 90px 0;
-    padding: 20px 0;
-}
 
-/*----------------------- BODY STYLING ------------------------------*/
-
+/*----------------------- HERO IMG SEARCH CONTAINER ------------------------------*/ 
 
 .heroimg {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height: 20vh; */
-    padding: 25vh 0 10vh 0;
+    padding: 20vh 0 20vh 0;
     margin: 0;
-    background-image: url("/assets/img/Main Top Image.png");
+    background-image: url("/assets/img/Main Top Image Mountain.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 25px; */
+    
 }
 
 .searchcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*width: 50%;*/
     margin: 10vh 0;
     padding: 5vh 3vw;
-   /* background-color: #fff;*/
     border-radius: 25px;
 }
 
@@ -139,21 +149,11 @@ input[type=text], input[type=date], input[type=number] {
     margin-left: 30px;
 }
 
-button {
-    background-color: var(--purple);
-    color: var(--white);
-    text-align: center;
-    margin: 20px 0;
-    padding: 10px 45px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
 .searchinputs button {
     margin-left: 10px;
 }
 
+/*-----------------------TRI TOURS------------------------------*/
 
 .tritours > h3 {
     color: var(--black);
@@ -180,46 +180,55 @@ button {
     margin: 0 5px;
     padding: 20px 10px;
     text-align: center;
-    background-color: #B695C0;
+    background-color: var(--lightpurple);
     border-radius: 0 0 15px 15px;
 }
-
-.right {
-    float: right;
-}
-
-/* .menu {
-    float: right;
-} */
 
 .toursimgframe {
     width: 400px;
     height: 500px;
     margin: 0 20px;
-    background-image: url("/assets/img/Rectangle 75.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
 
+.tif1 {
+    background-image: url("/assets/img/Rectangle 101@2x.jpg");
+}
+
+.tif2 {
+    background-image: url("/assets/img/Rectangle 102@2x.jpg");
+}
+
+.tif3 {
+    background-image: url("/assets/img/Rectangle 103@2x.jpg");
+}
+
+/*-----------------------TRI TOURS BLURB------------------------------*/
+
+.tritoursblurb {
+    margin-bottom: 0;
+}
+
 .tritoursblurb p {
-    padding: 0 20rem;
+    text-align: center;
+    padding: 0 15rem;
 }
 
 .tritoursblurb button {
     margin-top: 70px;
 }
 
-
-
 .tritoursblurb p {
     padding: 0 20rem;
 }
 
-.wblistcontainer button {
-    background-color: var(--lightgray);
-    color: var(--black);
+/*-----------------------SIX TOURS------------------------------*/
+
+.sixtours {
+    margin-top: 0;
 }
 
 .tour-container > .tour-left , .tour-right {
@@ -234,25 +243,25 @@ button {
 
 .destination-left .item {
     margin: 5px 0px;
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: auto;
 }
 
-.destination-left > h3 {
-    font-size: 18px;
-    margin-top: 20px;
+.destination-left > h2 {
+    margin: 3rem 0 2rem 0;
 }
 
 .destination-right > img {
     margin: 5px 0px;
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: auto;
 }
 
-.destination-right > h3 {
-    font-size: 18px;
-    margin-top: 20px;
+.destination-right > h2 {
+    margin: 3rem 0 2rem 0;
 }
+
+/*-----------------------WHY BOOK------------------------------*/
 
 .wblistcontainer {
     display: flex;
@@ -264,7 +273,8 @@ button {
 .wblistcontainer button {
     background-color: var(--lightgray);
     color: var(--black);
-    width: 20rem;
+    width: 25rem;
+    height: 5rem;
 }
 
 .wblistleft, .wblistright {
@@ -283,6 +293,8 @@ button {
     justify-content: center;
 }
 
+/*-----------------------TOUR TYPES------------------------------*/
+
 .tourtypes{
     display: flex;
     flex-direction: row;
@@ -298,34 +310,30 @@ button {
 }
 
 .tourselection > img {
-    margin-top: 5px; 
-    width: 325px;
-    height: 175px;
+    width: 400px;
+    height: 240px;
 }
 
 .tourselection > p {
-    font-size: 10px;
-    margin-top: -8px;
-    border-radius: 5px;
-    padding: 10px 5px;
-    background-color: rgb(219, 218, 218);
-
+    margin-top: -10px;
+    padding: 1rem .5rem 1rem .5rem;
+    text-align: center;
+    font-size: smaller;
+    background-color: var(--lightpurple);
+    border-radius: 0 0 15px 15px;
 }
 
-
-.wblistleft li {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.tourselection > h2 {
+    margin-bottom: 1.5rem;
 }
+
+/*-----------------------SOCIAL PROOF------------------------------*/
 
 .review {
     display: flex;
     margin-top: 20px;
-    /* border: 0.5px solid lightgray; */
     border-radius: 5px;
     box-shadow: 20px;
-    
 }
 
 .review > p {
@@ -333,16 +341,11 @@ button {
 }
 
 .review .image {
-    border-radius: 80px;
+    width: 10%;
+    border-radius: 50%;
 }
 
-.closingstatement > h3 {
-    border: 1px solid lightgray;
-    padding: 20px 300px;
-    background-color: rgb(250, 246, 246);
-    border-radius: 5px;
-    font-size: 12px;
-}
+/*----------------------TRAVEL TYPE---------------------------*/
 
 .top-preference {
     display: flex;
