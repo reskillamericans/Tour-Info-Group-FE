@@ -65,3 +65,59 @@ body {
 .far {
   margin-right: 10px;
 }
+
+.topsection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
+  margin-top: 40px;
+}
+
+.top img {
+ width: 1275px;
+ height:350px;
+ object-fit: cover;
+ 
+}
+
+h1{
+  
+}
+
+.travel-experience {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+h4{
+  color: #7307c8;
+}
+
+.hiking img{
+  float: right;
+  width: 350px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+
+.success{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-content: space-around;
+  margin-top: 40px;
+}
+
+.goal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
