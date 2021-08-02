@@ -116,7 +116,7 @@ section {
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 0;
-  padding: 4rem; 
+  padding: 4rem;
   background-color: var(--darkgray);
 }
 
@@ -154,34 +154,103 @@ section {
   background: var(--white);
   border-radius: 0.25rem;
   margin: 0 1rem 0 0;
-   padding: 0.75rem 12rem 0.75rem 1rem;
+  padding: 0.75rem 12rem 0.75rem 1rem;
 }
 
 /*----------------------- FOOTER START ------------------------------*/
 
 footer {
-    background-image: url(https://placeimg.com/1000/600/arch);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("/assets/img/Main Top Image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .footertxtcontainer {
-    background-color: #09ccbfb7;
-    height: inherit;
+  background-color: #09ccbfb7;
+  height: inherit;
 }
 
 .footertxt {
-    display: flex;  
-    flex-direction:column;
-    align-items: center;
-    padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 .footertxt h2 {
-   color: var(--white);
-   margin-bottom: 1rem;
+  color: var(--white);
+  margin-bottom: 1rem;
 }
 
 /*----------------------- RESPONSIVNESS ------------------------------*/
+
+@media only screen and (max-width: 40em) {
+  /*--- HEADER ---*/
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu a {
+    font-size: 3vw;
+  }
+
+  .menu > a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu img {
+    width: 60%;
+    padding: 1rem 0 1rem 0;
+  }
+
+.right {
+  font-size: 1rem;
+}
+
+  .right .purpbg {
+    padding: 2vh;
+  }
+
+  /*--- SOCIAL LINK AND NEWSLETTER ---*/
+
+  .prefooter {
+    overflow: hidden;
+    padding: 2rem;
+  }
+
+  .prefooter a {
+    font-size: 4vw;
+  }
+
+  .newsletter {
+    padding-left: 2vw;
+  }
+
+  .newsletter input[type="email"] {
+    padding: 0.75rem 5.5rem 0.75rem 1rem;
+    margin: 1rem 0 0 0;
+  }
+
+  /*--- FOOTER ---*/
+
+  .newsletter h1 {
+    font-size: 5.75vw;
+    text-align: left;
+  }
+
+  
+  .footertxt h2 {
+    font-size: 1.2rem;
+  }
+
+  }
