@@ -118,10 +118,22 @@ button {
 } */
 
 /*----------------------- Middle ------------------------------*/
+.topimg{
+position: relative;
+  text-align: left;
+  color: white;
+}
+
 .topimg img{  
     height: 400px;
     width: 1200px;
 } 
+
+.topimg p {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;  
+}
 
 .middle-preference{
     display: flex;
@@ -129,16 +141,14 @@ button {
     align-items: center; 
 }
 
-.middle-selection > button {
-    /* width: 100px;*/
+ .middle-selection > button {
     height: 30px; 
     width: 100px;
     padding: 0 0 20px;
     border-radius: 5px;
     background-color: var(--purple);
     color:var(--white);
-    /* display: flex;*/
-     align-items: center;
+    align-items: center;
     justify-content: center; 
 }
 
@@ -146,7 +156,9 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     margin: 0 20px;
+    text-align: center;
 } 
   
 .middle-selection > img {
