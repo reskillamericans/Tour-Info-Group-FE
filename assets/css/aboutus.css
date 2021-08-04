@@ -87,7 +87,13 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  padding: 40px;
+  margin-left: 35px;
+  padding: 10px;
+}
+
+.experience > p {
+  margin-right: 150px;
+  
 }
 
 h4{
@@ -96,9 +102,11 @@ h4{
 
 .hiking img{
   float: right;
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   margin-left: 20px;
+  margin-right: 35px;
+  border-radius: 5px;
 }
 
 
@@ -111,13 +119,41 @@ h4{
   margin-top: 40px;
 }
 
-.goal{
+h3 {
+  color: #7307c8;
+}
+
+.tours {
+  margin-right: 100px;
+}
+
+.destinations {
+  margin-right: 100px;
+}
+
+.partners{
+  margin-right: 100px;
+}
+
+
+.goal {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  margin-top: 60px;
+  justify-content: left;
+  text-align:left;
+  margin-top: 120px;
+  margin-right: 450px;
 }
+
+.goal > p{
+  margin-left: 100px;
+}
+
+.goal > a{
+  text-decoration: none;
+  font-size: bold;
+}
+
 
 .staff {
   display: flex;
@@ -135,7 +171,7 @@ h4{
 }
 
 .jen img {
-  width: 200px;
+  width: 210px;
   height: 200px;
   border-radius: 70%;
   margin-right: 50px;
@@ -149,7 +185,7 @@ h4{
 }
 
 .jaz img {
-  width: 220px;
+  width: 235px;
   height: 210px;
   border-radius: 75%;
 }
@@ -157,15 +193,19 @@ h4{
 .opportunity {
   display: flex;
   flex-direction: row;
-  margin-top: 120px;
+  margin-top: 100px;
   justify-content: center;
   align-content: space-between;
-
 }
 
-/* .illustration img {
+.recruiting {
+  margin-left: 100px;
+}
+
+
+.illustration img {
   margin-right: 60px;
-} */
+}
 
 /*----------------------- BODY STYLING ------------------------------*/
 
