@@ -72,28 +72,37 @@ body {
   justify-content: center;
   align-items: center; 
   text-align: center; 
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .top img {
  width: 1275px;
  height:350px;
- object-fit: cover;
- 
+ object-fit: cover; 
 }
 
+.top > h1 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  font-size: 120px;
+  line-height: 158.76px;
+  font-weight: 500px;
+  font-style: normal;
+  color: white;
+}
 
 .travel-experience {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  margin-left: 35px;
+  margin-left: 55px;
   padding: 10px;
 }
 
 .experience > p {
-  margin-right: 150px;
-  
+  margin-right: 20px;
+  width: 838px 
 }
 
 h4{
@@ -102,7 +111,7 @@ h4{
 
 .hiking img{
   float: right;
-  width: 400px;
+  width: 310px;
   height: 250px;
   margin-left: 20px;
   margin-right: 35px;
@@ -135,6 +144,10 @@ h3 {
   margin-right: 100px;
 }
 
+/* hr{
+  width: 70%;
+  margin-top: 80px;
+} */
 
 .goal {
   display: flex;
@@ -149,8 +162,14 @@ h3 {
   margin-left: 100px;
 }
 
-.goal > a{
+.link {
+  margin-top: 20px;
+}
+.link > a{
   text-decoration: none;
+  font-size: bold;
+  margin-right: 480px;
+  padding-top: 60px;
   font-size: bold;
 }
 
