@@ -148,6 +148,11 @@ h4{
 .middlecontent > h2 {
   color: black;
   font-weight: bold;
+  
+}
+
+.touryst > h2 {
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -196,6 +201,7 @@ hr{
 
 .goal > p{
   margin-left: 100px;
+  
 }
 
 .link {
