@@ -83,9 +83,9 @@ body {
 
 .top > h1 {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 30%;
-  font-size: 120px;
+  font-size: 100px;
   line-height: 158.76px;
   font-weight: 500px;
   font-style: normal;
@@ -118,6 +118,19 @@ h4{
   border-radius: 5px;
 }
 
+/* .middle-bgimg {
+  position: relative;
+} */
+
+/* .middlecontent {
+  position: absolute;
+} */
+
+.middlecontent {
+  background-image: url(/assets/img/worldmapbg.webp);
+  background-repeat: no-repeat;
+  margin-left: 250px;
+}
 
 .success{
   display: flex;
@@ -173,6 +186,10 @@ h3 {
   font-size: bold;
 }
 
+.staffing {
+  margin-left: 45%;
+}
+
 
 .staff {
   display: flex;
@@ -180,7 +197,7 @@ h3 {
   justify-content: center;
   /* align-content: space-around; */
   text-align: center;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .rob img {
