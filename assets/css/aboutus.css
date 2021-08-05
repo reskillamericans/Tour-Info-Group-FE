@@ -132,7 +132,7 @@ h4{
   margin-left: 250px;
 }
 
-.success{
+.success {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -206,11 +206,21 @@ h3 {
   margin-right: 50px;
 }
 
+.rob > h5 {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
 .jen img {
   width: 210px;
-  height: 200px;
+  height: 205px;
   border-radius: 70%;
   margin-right: 50px;
+}
+
+.jen > h5 {
+  margin-right: 40px;
+  margin-top: 8px;
 }
 
 .sam img {
@@ -220,10 +230,20 @@ h3 {
   margin-right: 50px;
 }
 
+.sam > h5 {
+  margin-right: 40px;
+  margin-top: 8px;
+}
+
 .jaz img {
   width: 235px;
   height: 210px;
   border-radius: 75%;
+}
+
+.jaz > h5 {
+  margin-right: 1.5px;
+  margin-top: 8px;
 }
 
 .opportunity {
