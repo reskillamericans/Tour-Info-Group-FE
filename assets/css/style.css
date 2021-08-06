@@ -503,25 +503,21 @@ footer {
 }
 
 @media all and (max-width: 480px) {
-  .header {
-    /* background-color: orangered; */
-  }
-
   section {
     margin: 10vh 5vw;
   }
 
   h1 {
-      font-size: 4.5vw;
+    font-size: 7.5vw;
   }
 
   h2 {
-      font-size: 3vw;
+    font-size: 3vw;
   }
 
   h3 {
     font-size: 2.8vw;
-}
+  }
 
   .menu {
     flex-direction: column;
@@ -535,6 +531,9 @@ footer {
     padding: 1rem;
   }
 
+  section {
+    padding-bottom: 1rem;
+  }
   .tritourscontainer {
     flex-direction: column;
   }
@@ -552,14 +551,14 @@ footer {
   .tours > p {
     width: 65vw;
     font-size: 3vw;
-}
+  }
 
   .tritoursblurb p {
-      padding: 0 0;
+    padding: 0 0;
   }
 
   .tour-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .destination-left .item {
@@ -570,7 +569,7 @@ footer {
     margin: 3rem 0 1rem 0;
   }
 
-  .destination-right > img{
+  .destination-right > img {
     width: 88vw;
   }
 
@@ -579,7 +578,7 @@ footer {
   }
 
   .wblistcontainer {
-    flex-direction: column; 
+    flex-direction: column;
     margin: 1rem 0 2rem 0;
   }
 
@@ -589,4 +588,62 @@ footer {
     cursor: default;
   }
 
+  .tourtypes-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tourselection h2 {
+    margin: 1.5rem 0 0.5rem 0;
+  }
+
+  .tourselection > img {
+    width: 17rem;
+    height: auto;
+  }
+
+  .tourselection > p {
+    width: 16rem;
+  }
+
+  /* SOCIAL TESTIMONIAL */
+  .testimonial {
+    flex-direction: column;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .socialproofimgframe {
+    margin: 2rem 0;
+  }
+
+  .socialproof button {
+    margin: 4rem 0;
+  }
+
+  .top-preference {
+    flex-direction: column;
+  }
+
+  .top-selection > h3 {
+    font-size: 0.9rem;
+    padding: 2rem 0 .1rem 0;
+  }
+
+  .bottom-preference {
+    flex-direction: column;
+  }
+
+  .bottom-preference img {
+    width: 90vw;
+  }
+  .prefooter {
+    margin: 0 0;
+    flex-direction: column;
+  }
+
+  .newsletter input[type="email"] {
+    padding: 0;
+  }
 }
