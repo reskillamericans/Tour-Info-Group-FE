@@ -51,7 +51,7 @@ body {
 }
 
 .right{
-  left: 112rem; 
+  left: .5rem; 
   position: relative;
 }
 
@@ -165,26 +165,8 @@ button {
  padding: .75rem 12rem .75rem 1rem;
 }
 
-/*
 footer {
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 2rem 0;
- background-image: url("/assets/img/Main Top Image.png");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-
-footer h2 {
- color: var(--white);
- margin-bottom: 1rem;
-}
-*/
-
-footer {
-  background-image: url(https://placeimg.com/1000/600/arch);
+  background-image: url("/assets/img/Main Top Image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,22 +174,18 @@ footer {
 }
 
 .footertxtcontainer {
-  /* background-color: #09ccbfb7; */
+  background-color: #09ccbfb7;
   height: inherit;
 }
 
 .footertxt {
-  display: flex;  
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 2rem 0;
 }
 
 .footertxt h2 {
- color: var(--white);
- margin-bottom: 1rem;
-}
-
-.footertxt p{
   color: var(--white);
+  margin-bottom: 1rem;
 }
