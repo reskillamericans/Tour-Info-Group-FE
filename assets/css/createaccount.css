@@ -89,6 +89,33 @@ button {
   padding: 20px 0;
 } */
 
+.account {
+  margin-left: 500px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.middlesection {
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 350px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+}
+
+.signup {
+  margin-left: 550px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+
+
+
 /*----------------------- SOCIAL AND NEWSLETTER SECTION START ------------------------------*/
 
 .prefooter {
