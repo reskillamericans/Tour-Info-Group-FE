@@ -80,19 +80,11 @@ button {
   cursor: pointer;
 }
 
-/* section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 90px 0;
-  padding: 20px 0;
-} */
-
 .account {
-  margin-left: 500px;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin-left: 515px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 20px;
 }
 
 .middle-section {
@@ -102,8 +94,7 @@ button {
 }
 
 .form-container {
-  width: 90%;
-  max-width: 500px;
+  width: 50%;
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0px 0px 20px #00000010;
@@ -113,29 +104,33 @@ button {
 }
 
 .form-group {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
 }
 
 .name{
   display: inline-flex;
   justify-content: space-between;
+  width: 90%;
 }
 
 #fname {
-  width: 90%;
+  width: 100%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   margin-top: 3px;
   margin-right: 50px;
   border: none;
   border-radius: 3px;  
-  outline: none;
-  
+  outline: none;  
 }
 
 #lname {
-  width: 100%;
+  width: 123%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   margin-top: 3px;
@@ -145,7 +140,7 @@ button {
 }
 
 #address {
-  width: 100%;
+  width: 98%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -157,20 +152,23 @@ button {
 .location {
   display: inline-flex;
   justify-content: space-between;
+  width: 100%;
 }
 
+
 #city {
-  width: 50%;
+  width: 40%;
   background-color: rgb(243, 237, 237);
-  padding: 5px;
+  padding: 5px 50px;
   border: none;
   border-radius: 3px;
   margin-top: 3px;
+  margin-right: 7px;
   outline: none;
 }
 
 #state {
-  width: 20%;
+  width: 45%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -179,8 +177,9 @@ button {
   outline: none;
 }
 
+
 #zipcode {
-  width: 15%;
+  width: 92%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -197,7 +196,7 @@ button {
 
 
 #phone {
-  width: 50%;
+  width: 100%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -206,8 +205,12 @@ button {
   outline: none;
 }
 
+.bdaymonth{
+  width: 30%;
+  margin-left: 60px;
+}
 #bdaymonth {
-  width: 25%;
+  width: 60%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -217,7 +220,7 @@ button {
 }
 
 #bdayyear{
-  width: 25%;
+  width: 94%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -227,7 +230,7 @@ button {
 }
 
 #email {
-  width: 100%;
+  width: 98%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -237,7 +240,7 @@ button {
 }
 
 #pssword {
-  width: 100%;
+  width: 98%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -247,7 +250,7 @@ button {
 }
 
 #username {
-  width: 100%;
+  width: 98%;
   background-color: rgb(243, 237, 237);
   padding: 5px;
   border: none;
@@ -255,20 +258,6 @@ button {
   margin-top: 3px;
   outline: none;
 }
-
-/* .middlesection {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-content: center;
-  text-align: center;
-  margin-left: 100px; 
-  margin-right: 200px; 
-  border: 1px solid lightgray;
-  box-sizing: border-box;
-  width: 1000px;  
-  padding: 12px;
-} */
 
 .signup {
   margin-left: 550px;
