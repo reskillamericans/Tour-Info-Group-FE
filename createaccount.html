@@ -11,60 +11,75 @@
     <div class="container">
         <div class="title">Create Your Account</div>
         <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">First Name</span>
-                    <input type="text"  required>
+            <div class="name">
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" required>
                 </div>
-                <div class="input-box">
-                    <span class="details">Last Name</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Address</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">City</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">State</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Zip</span>
-                    <input type="text" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Phone</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Birthday Month</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Birthday Year</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Email</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Username</span>
-                    <input type="text"  required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Password</span>
-                    <input type="text"  required>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" required>
                 </div>
             </div>
-            <div class="button">
-                <input type="submit" value="Sign Up">
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <div class="residence">
+                <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+                <div class="form-group">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" required>
+                </div>
+            </div>
+
+            <div class="personal-details">
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="bdaymonth">Birthday Month</label>
+                    <input type="text" id="bmonth" name="bdaymonth" required>
+                </div>
+                <div class="form-group">
+                    <label for="bdayyear">Birthday Year</label>
+                    <input type="text" id="byear" name="bdayyear" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="pword">Password</label>
+                <input type="text" id="pword" name="password" required>
+                </div>
             </div>
         </form>
+
+        <div class="signup">
+            <button>Sign Up</button>
+        </div>
+    
     </div>
 </body>
 </html>

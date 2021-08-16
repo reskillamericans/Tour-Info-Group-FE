@@ -6,26 +6,30 @@
     font-family: "Poppins",sans-serif;
 }
 body{
-    display: flex;
-    height: 100vh;
+    /* display: flex;  */
+     height: 100vh;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+     padding: 10px; 
+    background: #fff;
 }
+
 .container{
     max-width: 700px;
+    margin: auto;
     width: 100%;
     background: #fff;
-    padding: 25px 30px;
+    padding: 20px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 .container .title{
+    align-self: center;
     font-size: 25px;
     font-weight: 500;
-    position: relative;
+    /* position: relative; */
 }
-.container .title::before{
+/* .container .title::before{
     content: "";
     position: absolute;
     left: 0;
@@ -33,68 +37,181 @@ body{
     height: 3px;
     width: 30px;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+} */
+
+.form-group {
+    margin-top: 20px;
 }
-.container form .user-details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 0 12px 0;
-}
-form .user-details .input-box{
-    margin-bottom: 15px;
-    width: calc(100%/2= 20px);
-}
-.user-details .input-box .details{
+
+.form-group label {
     display: block;
-    font-weight: 500;
-    margin-bottom: 5px;
 }
-.user-details .input-box input{
-    height: 45px;
+
+.name {
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+#fname {
     width: 100%;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding-left: 15px;
-    font-size: 16px;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-}
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
-    border-color: #9b59b6;
-}
-form input[type="radio"]{
-    display: none;
-}
-form .button{
-    height: 45px;
-    margin: 45px 0;
-}
-form .button input{
-    height: 100%;
-    width: 30%;
-    outline: none;
-    color: #fff;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
     border: none;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 15px;
-    letter-spacing: 1px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 50px;
 }
-form .button input:hover{
-    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+
+#lname {
+    width: 125%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
 }
+
+#address {
+    width: 100%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.residence {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#city {
+    width: 100%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px 50px;
+    border: none;
+    margin-top: 3px;
+    margin-right: 7px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#state {
+    width: 65px;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#zip {
+    width: 90%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.personal-details {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#phone {
+    width: 80%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#bmonth {
+    width: 60%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#byear {
+    width: 60%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#email {
+    width: 97%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+#pword {
+    width: 97%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#username {
+    width: 97%;
+    background-color: rgb(243, 237, 237);
+    padding: 5px;
+    border: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    outline: none;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 45px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.signup {
+    margin-left: 550px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 @media (max-width:584px) {
     .container{
         max-width: 100%;
 }
-form .user-details .input-box{
+form .form-group .input-box{
     margin-bottom: 15px;
     width: 100%;
 }
-.container form .user-details{
+.container form .form-group{
     max-height: 300px;
     overflow-y: scroll;
 }
