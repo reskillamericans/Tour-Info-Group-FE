@@ -110,7 +110,13 @@ button {
 }
 
 /* ---------------------middle Box----------------------------*/
+.middlebox{
+text-align: center;
+}
 
+#purple1 h2 {
+  color: var(--purple);
+}
 
 /*----------------------TRAVEL TYPE---------------------------*/
 
