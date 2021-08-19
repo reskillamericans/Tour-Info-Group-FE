@@ -76,7 +76,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 90px;
 }
 
 .leftcontainer {
@@ -141,7 +141,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 
 .Name-Email-Message {
@@ -299,13 +299,11 @@ footer {
 } 
  
 @media only screen and (min-width:375px) and (max-midth:812px){
-.middlesection {
-  display: block;
-}
-
-
-}
-
+ .middlesection {
+  display: block;  
+  }
+} 
+ 
  
  footer > h2 {
   padding-top: 1.5vh;
@@ -313,12 +311,6 @@ footer {
  } 
  
 
- @media only screen and (min-width:360px) {
-  .middlesection{
-    display: block;
-    margin-left: 8px;
-    margin-right: 8px;
-  }
 
   
   .secondleft {
