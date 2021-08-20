@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style type="text/css">@import url(/assets/css/signup.css);</style>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Touryst</title>
-        <link rel="shortcut icon" type="image/jpg" href=""/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    </head>
+
+<head>
+    <style type="text/css">
+        @import url(/assets/css/signup.css);
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Touryst</title>
+    <link rel="shortcut icon" type="image/jpg" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 <body>
     <header class="header">
         <div class="menu">
-            <a href="#"><img src="/assets/img/Group 186.png" alt="Touryst Logo"></a>
+            <a href="index.html"><img src="/assets/img/Group 186.png" alt="Touryst Logo"></a>
             <ul class="right">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-                <li class="signin"><a href="#"><i class="far fa-user-circle"></i>Sign In</a></li>
-                <li><a href="#" class="purpbg">Join Now</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li class="signin"><a href="login.html"><i class="far fa-user-circle"></i>Sign In</a></li>
+                <li><a href="signup.html" class="purpbg">Join Now</a></li>
             </ul>
         </div>
     </header>
 
     <section>
-      <div class="signupcontainer">
-      
-      <h2>Sign-In <span>or</span> Create Account</h2>
-      <div class="googlesignin"><i class="fab fa-google fa-2x"></i><p>Sign in with Google</p></div>
-      <h3>or</h3>
+        <div class="signupcontainer">
 
-      <form>
-        <label for="email">Email</label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="password">Password</label><br>
-        <input type="text" id="passWord" name="password"><br>     
-        <div class="userinput"><div class="remember"><input type="checkbox" id="rememberMe" name="remember" value="remember">
-        <label for="remember">Remember Me</label></div><input type="submit" value="Sign In"></div> </form> 
-        <a href="#">Forgot Password?</a>
-    </div>
-    </section> 
+            <h2>Sign-In <span>or</span> Create Account</h2>
+            <div class="googlesignin"><i class="fab fa-google fa-2x"></i>
+                <p>Sign in with Google</p>
+            </div>
+            <h3>or</h3>
+
+            <form>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="passWord" name="password"><br>
+                <div class="userinput">
+                    <div class="remember"><input type="checkbox" id="rememberMe" name="remember" value="remember">
+                        <label for="remember">Remember Me</label>
+                    </div><input type="submit" value="Sign In">
+                </div>
+            </form>
+            <a href="#">Forgot Password?</a>
+        </div>
+    </section>
 
     <section class="prefooter">
         <div class="footerleft">
@@ -57,12 +68,12 @@
 
         <div class="newsletter">
             <h1>Be in the know on all travel deals and news</h1>
-        <div class="newslettercontainer">
-            <input type="email" placeholder="Email Address: "><button type="submit">Sign Up</button>
+            <div class="newslettercontainer">
+                <input type="email" placeholder="Email Address: "><button type="submit">Sign Up</button>
+            </div>
         </div>
-        </div>
-        
-</section>
+
+    </section>
 
 
 
@@ -71,10 +82,11 @@
             <div class="footertxt">
                 <h2>Experience the Adventure that Awaits you!</h2></br>
                 <p> &#169; 2021 Toursyt | All Rights Reserved </br>
-                Privacy Policy | Terms & Conditions</p>
+                    Privacy Policy | Terms & Conditions</p>
             </div>
         </div>
-    </footer> 
-    
+    </footer>
+
 </body>
-</html> 
+
+</html>
